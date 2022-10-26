@@ -25,5 +25,5 @@ Classes e métodos do programa
 O commit Delegando Responsabilidade as classes permite ter um código refatorado na Classe Controller facilitando o design clean code, entre outras motivações como personalizar o tratamento de excessão e lançar em tempo de compilação, uma outra classe é responsável da configuração da excessão que implementa ResponseEntityExceptionHandler que lida com as excessões do springMVC e é conveniente ao uso da anotação @ControllerAdvice que lida com excessão de forma global de um aplicativo.
 
 É disponibilizado o end-point via queryParam que permite usar a requisição com uma calculadora
-o request no browser via localhost:8080/sum/2/2 solicita por exemplo realizar a soma entre dois Parâmetros enviados.
+o request no browser via localhost:8080/sum/2/2 solicita por exemplo realizar a soma entre dois Parâmetros informados.
 Entre a soma estão outras operações matemáticas: divisão, multiplicação, subtração e raiz quadrada (essa enviando apenas um parâmetros).
